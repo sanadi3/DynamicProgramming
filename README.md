@@ -1,2 +1,2 @@
-# DynamicProgramming
-Given an array of possible steps, find the longest possible path that ends at the required start level.
+# Dynamic Programming
+In a beginner friendly fitness training class, an approach used is to incorporate high incline training. Given an array of possible steps one can take up or down the incline, the algorithm finds the longest possible path that ends at the original street level. The algorithm uses a bottom-up memoization approach to avoid recounting possible subproblems to avoid an exponential time complexity worst case scenario. Additionally, the algorithm takes into account a special constraint, to stay as close to street level as possible throughout the entire training session.
